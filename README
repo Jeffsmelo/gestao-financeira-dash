@@ -1,0 +1,30 @@
+# 📊 Sistema de Gestão Financeira – Dash / Python
+
+Sistema web desenvolvido em Python utilizando Dash, focado em controle
+e análise de despesas corporativas, com autenticação por usuário,
+filtros avançados e exportação para Excel.
+
+## 🚀 Funcionalidades
+- 🔐 Login com controle de perfil (Admin e Usuário)
+- 📅 Filtros por ano, mês e centro de custo
+- 📊 Tabela dinâmica com totalizadores
+- 📄 Modal de histórico por linha
+- ⬇️ Exportação para Excel (com regras por perfil)
+- 🎯 Interface responsiva e profissional
+
+## 🛠️ Tecnologias
+- Python
+- Dash / Plotly
+- Dash Bootstrap Components
+- Pandas
+- OpenPyXL
+- Flask
+
+## ▶️ Como executar o projeto
+
+```bash
+git clone https://github.com/seu-usuario/gestao-financeira-dash
+cd gestao-financeira-dash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt

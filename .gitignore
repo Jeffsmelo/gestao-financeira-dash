@@ -1,0 +1,15 @@
+# Ambiente virtual
+venv/
+__pycache__/
+
+# Arquivos de sistema
+*.log
+*.tmp
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Dados sensíveis
+*.env

@@ -1,0 +1,99 @@
+/* ===============================
+   RESET BÁSICO
+================================ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #2c3e50;
+}
+
+/* ===============================
+   TÍTULOS
+================================ */
+h2 {
+    margin-bottom: 5px;
+    color: #1f2937;
+}
+
+h4 {
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+/* ===============================
+   CONTAINERS
+================================ */
+hr {
+    border: none;
+    border-top: 1px solid #d1d5db;
+    margin: 20px 0;
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* ===============================
+   FILTROS
+================================ */
+.Select-control,
+.Select--single > .Select-control {
+    border-radius: 6px !important;
+    border: 1px solid #d1d5db !important;
+    min-height: 38px;
+}
+
+.Select-placeholder {
+    color: #9ca3af !important;
+}
+
+/* ===============================
+   KPI CARDS
+================================ */
+#kpi-cards {
+    width: 100%;
+}
+
+.kpi-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.kpi-title {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.kpi-value {
+    font-size: 26px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* ===============================
+   TABELA
+================================ */
+.table-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ===============================
+   RESPONSIVO
+================================ */
+@media (max-width: 768px) {
+    #kpi-cards {
+        flex-direction: column;
+    }
+}
