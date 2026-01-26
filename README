@@ -61,3 +61,120 @@ Flask
 OpenPyXL (exportação Excel)
 
 HTML / CSS (via Dash)
+
+📁 Estrutura do Projeto
+gestao-financeira-dash/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── callbacks/
+│   ├── login.py
+│   ├── tabela.py
+│
+├── layouts/
+│   ├── login_layout.py
+│   ├── main_layout.py
+│
+├── services/
+│   ├── auth_service.py
+│   ├── despesas_service.py
+│
+├── assets/
+│   └── estilos.css
+│
+└── icons/
+    ├── Gestao_Financeira.ico
+    └── Solicitacao_Compras.ico
+
+▶️ Como executar o projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/Jeffsmelo/gestao-financeira-dash.git
+cd gestao-financeira-dash
+
+2️⃣ Criar e ativar ambiente virtual
+python -m venv venv
+venv\Scripts\activate   # Windows
+
+3️⃣ Instalar dependências
+pip install -r requirements.txt
+
+4️⃣ Executar a aplicação
+python app.py
+
+
+Acesse no navegador:
+
+http://localhost:9765
+
+
+ou
+
+http://IP_DA_MAQUINA:9765
+
+👤 Perfis de Usuário
+👨‍💼 Usuário Comum
+
+Visualiza apenas seu Centro de Custo
+
+Exporta somente seus próprios dados
+
+👑 Admin
+
+Visualiza todos os Centros de Custo
+
+Exportação completa sem restrições
+
+Acesso total aos filtros
+
+📈 Objetivo do Projeto
+
+Este projeto foi desenvolvido com os seguintes objetivos:
+
+Demonstrar domínio em Python aplicado a negócios
+
+Construir aplicações web com Dash
+
+Trabalhar com dados reais, filtros e regras de negócio
+
+Automatizar relatórios financeiros
+
+Servir como case de portfólio profissional
+
+👨‍💻 Autor
+
+Jefferson Melo
+📍 Manaus – AM
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/jefferson-melo-87194a232/
+
+📧 E-mail:
+jbuss9910@hotmail.com
+
+⭐ Roadmap / Próximas Melhorias
+
+ Deploy em cloud (Render / Railway / VPS)
+
+ Logs de auditoria
+
+ Controle de sessão por tempo
+
+ Gráficos analíticos (Plotly)
+
+ Integração com banco de dados relacional
+
+ Controle de permissões mais granular
+
+📌 Observação
+
+Este projeto pode ser facilmente adaptado para:
+
+Controle orçamentário
+
+Gestão de despesas corporativas
+
+Sistemas internos administrativos
+
+Dashboards financeiros personalizados
