@@ -1,30 +1,63 @@
-# 📊 Sistema de Gestão Financeira – Dash / Python
+📊 Sistema de Gestão Financeira em Dash
 
-Sistema web desenvolvido em Python utilizando Dash, focado em controle
-e análise de despesas corporativas, com autenticação por usuário,
-filtros avançados e exportação para Excel.
+Aplicação web desenvolvida em Python + Dash para controle, visualização e análise de despesas financeiras, com controle de acesso por usuário, filtros dinâmicos e exportação avançada para Excel.
 
-## 🚀 Funcionalidades
-- 🔐 Login com controle de perfil (Admin e Usuário)
-- 📅 Filtros por ano, mês e centro de custo
-- 📊 Tabela dinâmica com totalizadores
-- 📄 Modal de histórico por linha
-- ⬇️ Exportação para Excel (com regras por perfil)
-- 🎯 Interface responsiva e profissional
+Projeto criado com foco em organização financeira, automação de relatórios e boas práticas de desenvolvimento Python para aplicações web corporativas.
 
-## 🛠️ Tecnologias
-- Python
-- Dash / Plotly
-- Dash Bootstrap Components
-- Pandas
-- OpenPyXL
-- Flask
+🚀 Funcionalidades
 
-## ▶️ Como executar o projeto
+🔐 Sistema de Login
 
-```bash
-git clone https://github.com/seu-usuario/gestao-financeira-dash
-cd gestao-financeira-dash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+Usuários comuns (restritos ao seu Centro de Custo)
+
+Usuário Admin com visão global
+
+Controle de permissões por perfil
+
+📊 Dashboard Financeiro
+
+Filtros por Ano, Mês e Centro de Custo
+
+Tabela dinâmica com paginação
+
+Totalizador automático de despesas
+
+📅 Tratamento e formatação de datas
+
+Datas exibidas no padrão brasileiro (DD/MM/AAAA)
+
+🔍 Modal de Histórico
+
+Visualização detalhada do histórico por lançamento
+
+⬇️ Exportação para Excel
+
+Exporta exatamente os dados filtrados
+
+Regras específicas para Admin e usuários comuns
+
+Arquivo .xlsx pronto para análise financeira
+
+🌐 Execução em rede
+
+Aplicação acessível via IP fixo
+
+Ideal para uso interno em empresas
+
+Exemplo: http://192.168.40.44:9765
+
+🛠️ Tecnologias Utilizadas
+
+Python 3.10+
+
+Dash (Plotly)
+
+Dash Bootstrap Components
+
+Pandas
+
+Flask
+
+OpenPyXL (exportação Excel)
+
+HTML / CSS (via Dash)
