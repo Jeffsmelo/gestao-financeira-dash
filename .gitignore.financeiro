@@ -1,0 +1,10 @@
+# Segredos - nunca commitar
+.env
+usuarios_cc.json
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
